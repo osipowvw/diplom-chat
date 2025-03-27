@@ -1,0 +1,34 @@
+.chatHeader {
+    flex-shrink: 0;
+    height: 60px;
+    background-color: #8e24aa;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.backButton {
+    color: #fff !important;
+}
+
+.avatar {
+    margin: 0 10px;
+    background-color: #fff !important;
+    color: #8e24aa !important;
+}
+
+.headerInfo {
+    flex-grow: 1;
+    
+    h2 {
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #e1bee7;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Simple Chat</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-list-screen" style="display: block;">
+        <header class="chat-list-header">
+            <div class="header-content">
+                <button id="burger-menu-button" class="action-button">
+                    <span class="material-icons">menu</span>
+                </button>
+                <h2 class="header-title">Чаты</h2>
+                <input id="search-input" class="search-input" type="text" placeholder="Поиск чата">
+            </div>
+        </header>
+        
+        <div id="chat-list"></div>
+    
+        <button id="create-chat-button" class="floating-button">
+            <span class="material-icons">add</span>
+        </button>
+        
+        <div id="create-chat-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3>Создать новый чат</h3>
+                <input type="text" id="new-chat-name" placeholder="Введите имя чата">
+                <button id="create-chat-confirm-button">Создать</button>
+                <button id="create-chat-cancel-button">Отмена</button>
+            </div>
+        </div>
+    </div>    
+    
+    <div id="chat-screen" style="display: none;">
+        <div class="chat-container">
+            <header class="chat-header">
+                <div class="header-content">
+                    <button id="back-button" class="back-button">
+                        <span class="material-icons">arrow_back</span>
+                    </button>
+                    <div class="header-avatar">
+                        <span class="material-icons">account_circle</span>
+                    </div>
+                    <div class="header-info">
+                        <h2 id="user-name">Максим</h2>
+                        <p>онлайн</p>
+                    </div>
+                    <div class="header-actions">
+                        <button id="switch-user-button" class="action-button">
+                            <span class="material-icons">swap_horiz</span>
+                        </button>
+                        <button class="action-button">
+                            <span class="material-icons">info</span>
+                        </button>
+                        <button class="action-button">
+                            <span class="material-icons">volume_off</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="messages-container" id="messages-container"></div>
+
+            <form class="message-form" id="message-form">
+                <input class="form-input" id="message-input" name="message-text" placeholder="Введите сообщение" type="text" required>
+                <button type="submit" class="send-button">
+                    <span class="material-icons">send</span>
+                </button>
+            </form>
+        </div>  
+    <script src="bundle.js"></script>
+</body>
+</html>

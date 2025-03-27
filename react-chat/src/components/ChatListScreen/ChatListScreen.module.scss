@@ -1,0 +1,83 @@
+.chatListScreen {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.header {
+    padding: 10px 20px;
+    background-color: #8e24aa;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    width: 100%;
+    max-width: 200px;
+    background-color: #fff;
+    margin-right: 10px;
+
+    .MuiOutlinedInput-root {
+        background-color: #fff;
+        border-radius: 4px;
+
+        & fieldset {
+            border-color: #ccc;
+        }
+
+        &:hover fieldset {
+            border-color: #8e24aa;
+        }
+
+        &.Mui-focused fieldset {
+            border-color: #8e24aa;
+        }
+
+        input {
+            color: #000;
+        }
+    }
+}
+
+.chatList {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px 20px;
+}
+
+.floatingButton {
+    position: fixed;
+    align-self: flex-end;
+    bottom: 30px;
+    right: 30px;
+    background-color: #8e24aa;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+
+    &:hover {
+        background-color: #5e35b1;
+    }
+}
+
+.profileButton {
+    color: #fff;
+}

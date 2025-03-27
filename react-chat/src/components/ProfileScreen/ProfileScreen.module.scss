@@ -1,0 +1,102 @@
+.profileScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.avatarSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .avatar {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15px;
+        background-color: #8e24aa;
+        font-size: 48px;
+    }
+
+    .uploadAvatar {
+        background-color: #8e24aa !important;
+        color: #fff !important;
+
+        &:hover {
+            background-color: #5e35b1 !important;
+        }
+    }
+
+    button {
+        height: 45px;
+        background-color: #8e24aa;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0 20px;
+        font-size: 16px;
+
+        &:hover {
+            background-color: #5e35b1;
+        }
+    }
+}
+
+.input {
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+
+    button {
+        flex: 1;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .saveButton {
+        background-color: #8e24aa;
+        color: #fff;
+
+        &:hover {
+            background-color: #5e35b1;
+        }
+    }
+
+    .cancelButton {
+        border: 1px solid #8e24aa;
+        color: #8e24aa;
+        background-color: transparent;
+
+        &:hover {
+            background-color: rgba(142, 36, 170, 0.1);
+        }
+    }
+}

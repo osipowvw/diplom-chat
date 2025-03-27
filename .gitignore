@@ -1,0 +1,15 @@
+.config/
+.local/
+.npm/
+.nvm/
+.gitconfig
+.sudo_as_admin_successful
+dz1/package-lock.json
+.lesshst
+.bash_history
+.cache/
+.motd_shown
+.bashrc
+.profile
+node_modules
+build
