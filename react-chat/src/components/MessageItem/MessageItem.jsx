@@ -19,7 +19,7 @@ export function MessageItem({ message, isOwnMessage }) {
                     message.readStatus ? (
                         <CheckCircleIcon style={{ color: 'blue', fontSize: '14px', marginLeft: '5px' }} />
                     ) : (
-                        <CheckIcon style={{ color: 'gray', fontSize: '14px', marginLeft: '5px' }} />
+                        <CheckIcon style={{ color: 'white', fontSize: '14px', marginLeft: '5px' }} />
                     )
                 )}
             </span>
