@@ -41,7 +41,7 @@ export function CreateChatModal({ open, onClose, onCreate }) {
                     <Button 
                         variant="contained" 
                         onClick={handleCreate}
-                        style={{ backgroundColor: '#pink', color: '#fff' }}
+                        style={{ backgroundColor: 'pink', color: '#fff' }}
                         className={styles.createButton}
                     >
                         Создать
