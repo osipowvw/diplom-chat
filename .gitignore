@@ -4,7 +4,6 @@
 .nvm/
 .gitconfig
 .sudo_as_admin_successful
-dz1/package-lock.json
 .lesshst
 .bash_history
 .cache/
