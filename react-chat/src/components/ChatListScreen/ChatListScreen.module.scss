@@ -8,7 +8,7 @@
 
 .header {
     padding: 10px 20px;
-    background-color: #8e24aa;
+    background-color: pink;
     color: #fff;
     display: flex;
     align-items: center;
@@ -37,11 +37,11 @@
         }
 
         &:hover fieldset {
-            border-color: #8e24aa;
+            border-color: pink;
         }
 
         &.Mui-focused fieldset {
-            border-color: #8e24aa;
+            border-color: pink;
         }
 
         input {
@@ -61,7 +61,7 @@
     align-self: flex-end;
     bottom: 30px;
     right: 30px;
-    background-color: #8e24aa;
+    background-color: pink;
     color: #fff;
     width: 60px;
     height: 60px;

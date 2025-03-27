@@ -35,12 +35,12 @@
         width: 120px;
         height: 120px;
         margin-bottom: 15px;
-        background-color: #8e24aa;
+        background-color: pink;
         font-size: 48px;
     }
 
     .uploadAvatar {
-        background-color: #8e24aa !important;
+        background-color: pink !important;
         color: #fff !important;
 
         &:hover {
@@ -50,7 +50,7 @@
 
     button {
         height: 45px;
-        background-color: #8e24aa;
+        background-color: pink;
         color: #fff;
         border-radius: 5px;
         padding: 0 20px;
@@ -82,7 +82,7 @@
     }
 
     .saveButton {
-        background-color: #8e24aa;
+        background-color: pink;
         color: #fff;
 
         &:hover {
@@ -91,8 +91,8 @@
     }
 
     .cancelButton {
-        border: 1px solid #8e24aa;
-        color: #8e24aa;
+        border: 1px solid pink;
+        color: pink;
         background-color: transparent;
 
         &:hover {
