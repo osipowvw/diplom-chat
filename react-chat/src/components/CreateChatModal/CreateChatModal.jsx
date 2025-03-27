@@ -41,7 +41,7 @@ export function CreateChatModal({ open, onClose, onCreate }) {
                     <Button 
                         variant="contained" 
                         onClick={handleCreate}
-                        style={{ backgroundColor: '#8e24aa', color: '#fff' }}
+                        style={{ backgroundColor: '#pink', color: '#fff' }}
                         className={styles.createButton}
                     >
                         Создать
@@ -49,7 +49,7 @@ export function CreateChatModal({ open, onClose, onCreate }) {
                     <Button 
                         variant="outlined" 
                         onClick={onClose}
-                        style={{ borderColor: '#8e24aa', color: '#8e24aa' }}
+                        style={{ borderColor: 'pink', color: 'pink' }}
                         className={styles.cancelButton}
                     >
                         Отмена
