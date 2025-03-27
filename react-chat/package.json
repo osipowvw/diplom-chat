@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/osipowvw/2024-2-VK-EDU-Frontend-M-Osipov",
+  "homepage": "https://github.com/osipowvw/diplom-chat",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
